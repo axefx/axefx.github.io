@@ -3,7 +3,7 @@ import Card from "react-md/lib/Cards/Card";
 import CardText from "react-md/lib/Cards/CardText";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
-import "./About.css";
+import "./About.scss";
 
 class About extends Component {
   render() {
