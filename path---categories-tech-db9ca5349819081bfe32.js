@@ -1,0 +1,2 @@
+webpackJsonp([86242794778721],{"./node_modules/json-loader/index.js!./.cache/json/categories-tech.json":function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/first-post"},excerpt:"axeFx first post coming soon",timeToRead:1,frontmatter:{title:"First Post",tags:["programming","stuff","other"],cover:"https://unsplash.it/400/300/?random?BoldMage",date:"01/01/2017"}}}]}},pathContext:{category:"tech"}}}});
+//# sourceMappingURL=path---categories-tech-db9ca5349819081bfe32.js.map

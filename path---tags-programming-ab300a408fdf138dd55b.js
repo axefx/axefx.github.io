@@ -1,0 +1,2 @@
+webpackJsonp([20956934260092],{"./node_modules/json-loader/index.js!./.cache/json/tags-programming.json":function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/first-post"},excerpt:"axeFx first post coming soon",timeToRead:1,frontmatter:{title:"First Post",tags:["programming","stuff","other"],cover:"https://unsplash.it/400/300/?random?BoldMage",date:"01/01/2017"}}}]}},pathContext:{tag:"programming"}}}});
+//# sourceMappingURL=path---tags-programming-ab300a408fdf138dd55b.js.map

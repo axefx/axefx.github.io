@@ -1,0 +1,2 @@
+webpackJsonp([0xf81835755154],{"./node_modules/json-loader/index.js!./.cache/json/tags-stuff.json":function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/first-post"},excerpt:"axeFx first post coming soon",timeToRead:1,frontmatter:{title:"First Post",tags:["programming","stuff","other"],cover:"https://unsplash.it/400/300/?random?BoldMage",date:"01/01/2017"}}}]}},pathContext:{tag:"stuff"}}}});
+//# sourceMappingURL=path---tags-stuff-5e26bbd199abd168bc0d.js.map

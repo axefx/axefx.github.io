@@ -1,0 +1,2 @@
+webpackJsonp([65611441667662],{"./node_modules/json-loader/index.js!./.cache/json/tags-cheese.json":function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/post-3"},excerpt:"third post coming soon",timeToRead:1,frontmatter:{title:"Post 3",tags:["cheese","other"],cover:"https://unsplash.it/400/300/?random?AngelsofMist",date:"01/03/2017"}}}]}},pathContext:{tag:"cheese"}}}});
+//# sourceMappingURL=path---tags-cheese-1d7fa35e54dd0c4dd6ab.js.map
