@@ -18,6 +18,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -32,7 +33,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 690
+              maxWidth: 1200
             }
           },
           {
@@ -47,7 +48,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: config.googleAnalyticsID
+        trackingId: config.siteGATrackingID
       }
     },
     {

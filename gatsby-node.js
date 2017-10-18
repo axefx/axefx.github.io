@@ -2,6 +2,39 @@ const path = require("path");
 const _ = require("lodash");
 const webpackLodashPlugin = require("lodash-webpack-plugin");
 
+const postNodes = [];
+
+function addSibilingNodes(boundActionCreators) {
+  const { createNodeField } = boundActionCreators;
+  for (let i = 0; i < postNodes.length; i += 1) {
+    const nextID = i + 1 < postNodes.length ? i + 1 : 0;
+    const prevID = i - 1 > 0 ? i - 1 : postNodes.length - 1;
+    const currNode = postNodes[i];
+    const nextNode = postNodes[nextID];
+    const prevNode = postNodes[prevID];
+    createNodeField({
+      node: currNode,
+      name: "nextTitle",
+      value: nextNode.frontmatter.title
+    });
+    createNodeField({
+      node: currNode,
+      name: "nextSlug",
+      value: nextNode.fields.slug
+    });
+    createNodeField({
+      node: currNode,
+      name: "prevTitle",
+      value: prevNode.frontmatter.title
+    });
+    createNodeField({
+      node: currNode,
+      name: "prevSlug",
+      value: prevNode.fields.slug
+    });
+  }
+}
+
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
   let slug;
@@ -27,7 +60,10 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       slug = `/${parsedFilePath.dir}/`;
     }
     createNodeField({ node, name: "slug", value: slug });
+    postNodes.push(node);
   }
+
+  addSibilingNodes(boundActionCreators);
 };
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
@@ -58,7 +94,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       `
       ).then(result => {
         if (result.errors) {
-          /* eslint no-console: "off" */
+          /* eslint no-console: "off"*/
           console.log(result.errors);
           reject(result.errors);
         }

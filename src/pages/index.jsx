@@ -9,7 +9,10 @@ class Index extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
-        <Helmet title={config.siteTitle} />
+        <Helmet>
+          <title>{config.siteTitle}</title>
+          <link rel="canonical" href={`${config.siteUrl}`} />
+        </Helmet>
         <SEO postEdges={postEdges} />
         <PostListing postEdges={postEdges} />
       </div>
@@ -19,7 +22,7 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off" */
+/* eslint no-undef: "off"*/
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
