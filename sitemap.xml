@@ -4,6 +4,7 @@
 <url> <loc>https://axefx.github.io/first-post</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/post-3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/post-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://axefx.github.io/react-md-themes</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/tags/programming/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/tags/stuff/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/tags/other/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -11,6 +12,9 @@
 <url> <loc>https://axefx.github.io/tags/test/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/tags/something/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/tags/tagging/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://axefx.github.io/tags/react-md/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://axefx.github.io/tags/material-design/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://axefx.github.io/tags/react/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/categories/tech/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/categories/test-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://axefx.github.io/categories/another-one/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

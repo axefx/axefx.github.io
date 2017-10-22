@@ -16,6 +16,10 @@
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "path---tags-material-design": [
+      "path---tags-material-design-64b8dc2ae8e998657d60.js",
+      "path---tags-material-design-64b8dc2ae8e998657d60.js.map"
+    ],
     "path---post-3": [
       "path---post-3-214e3d47be4b596feedd.js",
       "path---post-3-214e3d47be4b596feedd.js.map"
@@ -25,16 +29,20 @@
       "path---tags-cheese-1d7fa35e54dd0c4dd6ab.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-cd58ed25df6a8363a994.js",
-      "component---src-layouts-index-jsx-cd58ed25df6a8363a994.js.map"
+      "component---src-layouts-index-jsx-ecc5a0157e4cbf038921.js",
+      "component---src-layouts-index-jsx-ecc5a0157e4cbf038921.js.map"
     ],
     "path---categories-test-3": [
       "path---categories-test-3-2c0356cbc4485e8a082e.js",
       "path---categories-test-3-2c0356cbc4485e8a082e.js.map"
     ],
+    "path---tags-react": [
+      "path---tags-react-20684e72af033d35c847.js",
+      "path---tags-react-20684e72af033d35c847.js.map"
+    ],
     "path---categories-tech": [
-      "path---categories-tech-db9ca5349819081bfe32.js",
-      "path---categories-tech-db9ca5349819081bfe32.js.map"
+      "path---categories-tech-34e3ba4971e0db6f97d2.js",
+      "path---categories-tech-34e3ba4971e0db6f97d2.js.map"
     ],
     "path---first-post": [
       "path---first-post-d9511a9dcf1e5e9543ec.js",
@@ -43,6 +51,10 @@
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---react-md-themes": [
+      "path---react-md-themes-086bd79a15529bc09506.js",
+      "path---react-md-themes-086bd79a15529bc09506.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-04a9496049863016d7c6.js",
@@ -53,8 +65,8 @@
       "path---categories-another-one-0d38f32ddfe56adffbc1.js.map"
     ],
     "path---index": [
-      "path---index-2e36dfc856fdb7c17d6e.js",
-      "path---index-2e36dfc856fdb7c17d6e.js.map"
+      "path---index-942fee45fb474f2b9117.js",
+      "path---index-942fee45fb474f2b9117.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
@@ -65,9 +77,9 @@
       "path---tags-tagging-bf299c85659a8623a029.js.map"
     ],
     "commons": [
-      "commons-b63d1202dfec6d014bbb.js",
+      "commons-e74eb2e0e5df8368ddb5.js",
       "build-js-styles.css",
-      "commons-b63d1202dfec6d014bbb.js.map",
+      "commons-e74eb2e0e5df8368ddb5.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-templates-tag-jsx": [
@@ -79,21 +91,21 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-templates-post-jsx": [
-      "component---src-templates-post-jsx-c139b4355a72c9c7d4eb.js",
-      "component---src-templates-post-jsx-c139b4355a72c9c7d4eb.js.map"
+      "component---src-templates-post-jsx-b72e0f60aefc78b7be55.js",
+      "component---src-templates-post-jsx-b72e0f60aefc78b7be55.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js",
-      "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js.map"
+      "component---src-pages-index-jsx-0431dc1bb5cef7538861.js",
+      "component---src-pages-index-jsx-0431dc1bb5cef7538861.js.map"
     ],
     "path---tags-something": [
       "path---tags-something-f4cbdecfef83b06537ae.js",
       "path---tags-something-f4cbdecfef83b06537ae.js.map"
     ],
     "app": [
-      "app-e3a13dfc7dba1a2ba3b3.js",
+      "app-11af9af7b5ad9486607f.js",
       "build-js-styles.css",
-      "app-e3a13dfc7dba1a2ba3b3.js.map",
+      "app-11af9af7b5ad9486607f.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-test": [
@@ -107,6 +119,10 @@
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---tags-react-md": [
+      "path---tags-react-md-ade2aac7c7ca272744d3.js",
+      "path---tags-react-md-ade2aac7c7ca272744d3.js.map"
     ]
   }
 }
