@@ -1,5 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[axeFx]]></title><description><![CDATA[A software developer blog, with Advanced design in mind.]]></description><link>https://axefx.github.io</link><image><url>https://axefx.github.io/logos/logo-512.png</url><title>axeFx</title><link>https://axefx.github.io</link></image><generator>GatsbyJS Material Starter</generator><lastBuildDate>Sun, 22 Oct 2017 02:52:51 GMT</lastBuildDate><atom:link href="https://axefx.github.io/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Axel]]></author><copyright><![CDATA[Copyright © 2017. axeFx.github.io]]></copyright><item><title><![CDATA[react-md Themes]]></title><description><![CDATA[Working with react-md themes I need to figure out where how react-md is setup
-/src/layouts/theme.scss Resources links react-md   https…]]></description><link>https://axefx.github.io/react-md-themes</link><guid isPermaLink="false">https://axefx.github.io/react-md-themes</guid><category><![CDATA[react-md]]></category><category><![CDATA[material design]]></category><category><![CDATA[react]]></category><dc:creator><![CDATA[Axel]]></dc:creator><pubDate>Wed, 18 Oct 2017 07:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;working-with-react-md-themes&quot;&gt;&lt;a href=&quot;#working-with-react-md-themes&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Working with react-md themes&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[axeFx]]></title><description><![CDATA[A software developer blog, with Advanced design in mind.]]></description><link>https://axefx.github.io</link><image><url>https://axefx.github.io/logos/logo-512.png</url><title>axeFx</title><link>https://axefx.github.io</link></image><generator>GatsbyJS Material Starter</generator><lastBuildDate>Sat, 11 Nov 2017 22:39:51 GMT</lastBuildDate><atom:link href="https://axefx.github.io/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Axel]]></author><copyright><![CDATA[Copyright © 2017. axeFx.github.io]]></copyright><item><title><![CDATA[Live: Working with Sass Project in Gatsby]]></title><description><![CDATA[Working with Sass in Gatsby Project Requirements: Node:  https://nodejs.org/ npm:  https://www.npmjs.com/ GatsbyJs:  https://www.gatsbyjs…]]></description><link>https://axefx.github.io/live-working-with-sass-project-in-gatsby</link><guid isPermaLink="false">https://axefx.github.io/live-working-with-sass-project-in-gatsby</guid><category><![CDATA[GatsbyJs]]></category><category><![CDATA[Sass]]></category><category><![CDATA[React]]></category><category><![CDATA[Node]]></category><dc:creator><![CDATA[Axel]]></dc:creator><pubDate>Mon, 30 Oct 2017 07:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;working-with-sass-in-gatsby-project&quot;&gt;&lt;a href=&quot;#working-with-sass-in-gatsby-project&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Working with Sass in Gatsby Project&lt;/h1&gt;
+&lt;p&gt;Requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Node: &lt;a href=&quot;https://nodejs.org/&quot; title=&quot;Node&quot;&gt;https://nodejs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;npm: &lt;a href=&quot;https://npmjs.com/&quot; title=&quot;npm&quot;&gt;https://www.npmjs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GatsbyJs: &lt;a href=&quot;https://www.gatsbyjs.org/&quot; title=&quot;GatsbyJs&quot;&gt;https://www.gatsbyjs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;gatsby-plugin-sass: &lt;a href=&quot;https://www.npmjs.com/package/gatsby-plugin-sass&quot;&gt;https://www.npmjs.com/package/gatsby-plugin-sass&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;getting-started-with-gatsby-setup&quot;&gt;&lt;a href=&quot;#getting-started-with-gatsby-setup&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Getting started with Gatsby Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;go to &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;GatsbyJs&lt;/a&gt; website:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;open https://www.gatsbyjs.org&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;click &lt;a href=&quot;https://www.gatsbyjs.org/docs/&quot;&gt;Get Started&lt;/a&gt; button and follow along&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Terminal: Install Gatsby&apos;s command line tool&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;npm install --global gatsby-cli&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;create a new Gatsby site&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;gatsby new gatsby-site&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go to new folder&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;cd gatsby-site&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;installing-dependencies&quot;&gt;&lt;a href=&quot;#installing-dependencies&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Installing dependencies&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Install &lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-plugin-sass/&quot;&gt;gatsby-plugin-sass&lt;/a&gt; . Here is a list of &lt;a href=&quot;https://www.gatsbyjs.org/docs/plugins/#official-plugins&quot;&gt;official plugins&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;npm install --save gatsby-plugin-sass&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;&lt;em&gt;more details at&lt;/em&gt; &lt;a href=&quot;https://www.gatsbyjs.org/docs/plugins/&quot;&gt;Gatsby plugins&lt;/a&gt; or &lt;a href=&quot;https://www.gatsbyjs.org/packages/gatsby-plugin-sass/&quot;&gt;gatsby-plugin-sass&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open project in &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; editor or &lt;a href=&quot;https://alternativeto.net/software/atom/&quot;&gt;alternative&lt;/a&gt; editors&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-none&quot;&gt;&lt;code&gt;atom .&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Include &quot;gatsby-plugin-sass&quot; in your gatsby-config.js file&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/686d20c7103683d522a9621ac4f9abf6-fe5df.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 383px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 74.93472584856397%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABpElEQVQ4y62U3XKbMBSEeQTHwTE/AgGSAEtA+LOJ41AntL3IRduZvv+7bIXSSeqZNHWbXuygEeI7e86OsBYXS1wsL9+QjXXAzpbF+AJlpbDdDSjKCv12h7rtDIwEIezV+u+Al5TBjsWTolek31/58dmyRL6BTyMon+HrQmJaCrS+hD09wr6bYA8jxCpALhVWa+ePslIpDdAPKbKMYNtH+P4tx/0Hhi+PGcbbBFHCkOb5ecBMqWfgleNCCILdNsbDcQPXc/B54pjuObqG4tMkMB4S7G8SNNcUHx/0fhvhZhcjCMOfQPkC5GkGx/Nfrey4bzubzRggy7IXoKCoqhi1rq6KWLeanNXmacu/OIwTgrIMzfz2A9czjcwI+CxOzJpxHyIlkFIHlT/pBNh0DdJNBpZyYzugHo4jx90+QV1TE9JBB9Po9bV23neReRYqNHMlgf5Gm3kGdn2NqlbYqBweCTTU0YFwDHrQM2wGHEeGtol0GDH6lpozv205LwrTMtGKE35S7V9kSX3dZmCmSriu9y6YAQ6HWwN0SfBumAG6+gfwP4E/ALljlgw/6quZAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;sample gatsby-config&quot;
+        title=&quot;&quot;
+        src=&quot;/static/686d20c7103683d522a9621ac4f9abf6-fe5df.png&quot;
+        srcset=&quot;/static/686d20c7103683d522a9621ac4f9abf6-88bcd.png 300w,
+/static/686d20c7103683d522a9621ac4f9abf6-40715.png 600w,
+/static/686d20c7103683d522a9621ac4f9abf6-fe5df.png 766w&quot;
+        sizes=&quot;(max-width: 383px) 100vw, 383px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[current react-md Themes]]></title><description><![CDATA[Working with react-md themes I need to figure out where how react-md is setup
+/src/layouts/theme.scss Resources links react-md   https…]]></description><link>https://axefx.github.io/current-react-md-themes</link><guid isPermaLink="false">https://axefx.github.io/current-react-md-themes</guid><category><![CDATA[react-md]]></category><category><![CDATA[material design]]></category><category><![CDATA[react]]></category><dc:creator><![CDATA[Axel]]></dc:creator><pubDate>Wed, 18 Oct 2017 07:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;working-with-react-md-themes&quot;&gt;&lt;a href=&quot;#working-with-react-md-themes&quot; aria-hidden=&quot;true&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Working with react-md themes&lt;/h1&gt;
 &lt;p&gt;I need to figure out where how react-md is setup
 /src/layouts/theme.scss&lt;/p&gt;
 &lt;p&gt;
