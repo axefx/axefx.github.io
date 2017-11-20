@@ -6,14 +6,17 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
+    // gathers the "headers" of the posts
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <div className="index-container">
+        {/* "headers" of main page */}
         <Helmet>
           <title>{config.siteTitle}</title>
           <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
         <SEO postEdges={postEdges} />
+        {/* Component listing all posts in recent order */}
         <PostListing postEdges={postEdges} />
       </div>
     );
@@ -22,7 +25,7 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
