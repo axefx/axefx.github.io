@@ -1,5 +1,6 @@
 import React from "react";
 import BookHolder from "../BookHolder/BookHolder";
+import "./BookListing.scss";
 
 
 class BookListing extends React.Component {
