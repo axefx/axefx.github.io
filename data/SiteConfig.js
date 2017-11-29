@@ -21,13 +21,8 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://axefx.github.io",
+      url: "https://github.com/axefx",
       iconClassName: "fa fa-github"
-    },
-    {
-      label: "Facebook",
-      url: "https://facebook.com/",
-      iconClassName: "fa fa-facebook"
     },
     {
       label: "Email",
