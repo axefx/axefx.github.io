@@ -1,6 +1,13 @@
 import React from "react";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
+import FccIcon from "./../../fcc-campfire-logo.svg";
+
+// icon size 24 X 24
+
+function FccLogo() {
+  return <img src={FccIcon} alt="logo" height={24} width={24} />
+}
 
 function GetNavList(config) {
   const NavList = [
@@ -12,6 +19,12 @@ function GetNavList(config) {
     },
     {
       divider: true
+    },
+    {
+      primaryText: "FreeCodeCamp",
+      leftIcon: <FccLogo />,
+      component: "a",
+      href: "https://www.freecodecamp.org/axefx"
     }
   ];
 
