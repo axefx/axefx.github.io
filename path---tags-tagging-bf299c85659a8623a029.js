@@ -1,2 +1,0 @@
-webpackJsonp([0x91a4df6aa80e],{"./node_modules/json-loader/index.js!./.cache/json/tags-tagging.json":function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/post-2"},excerpt:"Second posts coming soon",timeToRead:1,frontmatter:{title:"Post 2",tags:["test","something","tagging"],cover:"https://unsplash.it/400/300/?random?TheFallenTime",date:"01/02/2017"}}}]}},pathContext:{tag:"tagging"}}}});
-//# sourceMappingURL=path---tags-tagging-bf299c85659a8623a029.js.map

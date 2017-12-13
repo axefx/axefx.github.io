@@ -1,17 +1,5 @@
 {
   "assetsByChunkName": {
-    "path---tags-other": [
-      "path---tags-other-5b8e77e9db3b17ffed1d.js",
-      "path---tags-other-5b8e77e9db3b17ffed1d.js.map"
-    ],
-    "path---tags-programming": [
-      "path---tags-programming-ab300a408fdf138dd55b.js",
-      "path---tags-programming-ab300a408fdf138dd55b.js.map"
-    ],
-    "path---post-2": [
-      "path---post-2-998954f2ae19c33caecc.js",
-      "path---post-2-998954f2ae19c33caecc.js.map"
-    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -19,14 +7,6 @@
     "path---tags-material-design": [
       "path---tags-material-design-97d273a56f48ef64a976.js",
       "path---tags-material-design-97d273a56f48ef64a976.js.map"
-    ],
-    "path---post-3": [
-      "path---post-3-24dde8a12e2c77e473ae.js",
-      "path---post-3-24dde8a12e2c77e473ae.js.map"
-    ],
-    "path---tags-cheese": [
-      "path---tags-cheese-1d7fa35e54dd0c4dd6ab.js",
-      "path---tags-cheese-1d7fa35e54dd0c4dd6ab.js.map"
     ],
     "path---tags-node": [
       "path---tags-node-f5f4e5be818b9d1ac750.js",
@@ -36,21 +16,13 @@
       "component---src-layouts-index-jsx-4555e76c5c93b9cd8e76.js",
       "component---src-layouts-index-jsx-4555e76c5c93b9cd8e76.js.map"
     ],
-    "path---categories-test-3": [
-      "path---categories-test-3-2c0356cbc4485e8a082e.js",
-      "path---categories-test-3-2c0356cbc4485e8a082e.js.map"
-    ],
     "path---tags-react": [
       "path---tags-react-89aaabb597d7aa48f7a7.js",
       "path---tags-react-89aaabb597d7aa48f7a7.js.map"
     ],
     "path---categories-tech": [
-      "path---categories-tech-dff5653b122aa8417aa4.js",
-      "path---categories-tech-dff5653b122aa8417aa4.js.map"
-    ],
-    "path---first-post": [
-      "path---first-post-7c149721704542d49681.js",
-      "path---first-post-7c149721704542d49681.js.map"
+      "path---categories-tech-db9ca5349819081bfe32.js",
+      "path---categories-tech-db9ca5349819081bfe32.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -64,10 +36,6 @@
       "component---src-templates-category-jsx-04a9496049863016d7c6.js",
       "component---src-templates-category-jsx-04a9496049863016d7c6.js.map"
     ],
-    "path---categories-another-one": [
-      "path---categories-another-one-0d38f32ddfe56adffbc1.js",
-      "path---categories-another-one-0d38f32ddfe56adffbc1.js.map"
-    ],
     "path---index": [
       "path---index-d50333127dee31b51105.js",
       "path---index-d50333127dee31b51105.js.map"
@@ -79,10 +47,6 @@
     "path---live-working-with-sass-project-in-gatsby": [
       "path---live-working-with-sass-project-in-gatsby-85dead63dabbc317fe2a.js",
       "path---live-working-with-sass-project-in-gatsby-85dead63dabbc317fe2a.js.map"
-    ],
-    "path---tags-tagging": [
-      "path---tags-tagging-bf299c85659a8623a029.js",
-      "path---tags-tagging-bf299c85659a8623a029.js.map"
     ],
     "commons": [
       "commons-f5ce00fb1da81f20f998.js",
@@ -106,14 +70,10 @@
       "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js",
       "component---src-pages-index-jsx-5cd3e3488ba2b0d716bd.js.map"
     ],
-    "path---tags-something": [
-      "path---tags-something-f4cbdecfef83b06537ae.js",
-      "path---tags-something-f4cbdecfef83b06537ae.js.map"
-    ],
     "app": [
-      "app-710e2bc2735eed6afd5b.js",
+      "app-f17f23d82f11de32a169.js",
       "build-js-styles.css",
-      "app-710e2bc2735eed6afd5b.js.map",
+      "app-f17f23d82f11de32a169.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-sass": [
@@ -123,14 +83,6 @@
     "path---current-react-md-themes": [
       "path---current-react-md-themes-6efe8e15b6d2109c4e58.js",
       "path---current-react-md-themes-6efe8e15b6d2109c4e58.js.map"
-    ],
-    "path---tags-test": [
-      "path---tags-test-f55832d66cefff2ad672.js",
-      "path---tags-test-f55832d66cefff2ad672.js.map"
-    ],
-    "path---tags-stuff": [
-      "path---tags-stuff-5e26bbd199abd168bc0d.js",
-      "path---tags-stuff-5e26bbd199abd168bc0d.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",

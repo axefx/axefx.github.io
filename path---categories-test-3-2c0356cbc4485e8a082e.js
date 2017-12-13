@@ -1,2 +1,0 @@
-webpackJsonp([84311424391466],{"./node_modules/json-loader/index.js!./.cache/json/categories-test-3.json":function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{fields:{slug:"/post-3"},excerpt:"third post coming soon",timeToRead:1,frontmatter:{title:"Post 3",tags:["cheese","other"],cover:"https://unsplash.it/400/300/?random?AngelsofMist",date:"01/03/2017"}}}]}},pathContext:{category:"test3"}}}});
-//# sourceMappingURL=path---categories-test-3-2c0356cbc4485e8a082e.js.map
