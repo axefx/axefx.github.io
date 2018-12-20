@@ -26,7 +26,7 @@ $md-secondary-color: $md-deep-orange-100;
 $md-tertiary-color: $md-brown-100;
 ```
 # Typography
-it is in index.scss as
+In index.scss as
 ```
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Material+Icons');
 ```

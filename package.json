@@ -67,8 +67,8 @@
     "build:gh": "npm run clean && npm run build && gh-pages -d public --branch master",
     "clean": "rm -rf public",
     "lint:js": "eslint --ext .js,.jsx --ignore-pattern public,static .",
-    "lint:md": "remark content/posts/",
-    "write-good": "write-good $(glob 'content/posts/**/*.md')",
+    "lint:md": "remark content/sample-posts/",
+    "write-good": "write-good $(glob 'content/sample-posts/**/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "remarkConfig": {
