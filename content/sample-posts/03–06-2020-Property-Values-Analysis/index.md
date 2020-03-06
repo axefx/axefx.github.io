@@ -1,11 +1,12 @@
 ---
 title: "Property Values Analysis"
-cover: "https://unsplash.it/400/300/?random?BoldMage"
+cover: "https://raw.githubusercontent.com/axefx/axefx.github.io/source/content/sample-posts/03–06-2020-Property-Values-Analysis/average-totalvalue.png"
 date: "03/06/20"
 category: "Data_Science"
 tags:
-    - Data_Science
+  - Data_Science
 ---
-# Testing a new post
 
-works!!
+# 2019 Property values in diamond bar, ca
+
+![average-totalvalues](https://raw.githubusercontent.com/axefx/axefx.github.io/source/content/sample-posts/03–06-2020-Property-Values-Analysis/average-totalvalue.png)
