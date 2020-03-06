@@ -8,7 +8,7 @@ module.exports = {
   siteDescription: "A software developer blog, with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   // siteFBAppID: "1825356251115265",  FB Application ID for using app insights
-  googleAnalyticsID: "UA-159945484-1", // GA tracking ID.
+  siteGATrackingID: "UA-159945484-1", // GA tracking ID.
   disqusShortname: "axefx", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   userName: "Axel", // Username to display in the author segment.
