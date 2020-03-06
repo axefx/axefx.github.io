@@ -29,7 +29,7 @@ According to Wikipedia, "Diamond Bar is a city in eastern Los Angeles County, Ca
 In the accessor records, I found out of the different types of use cases that 97% were specifically used for Single Family Residences.
 When used as a family residence, I found that the building types were 25% were condos and 72% Single Family Residence type.
 
-<div style="float:left;padding:0px 5px">
+<div style="width:60%;padding:5px5px;margin:auto;">
 
 ![average-totalvalues](https://raw.githubusercontent.com/axefx/axefx.github.io/source/content/sample-posts/03–06-2020-Property-Values-Analysis/average-totalvalues.png)
 
