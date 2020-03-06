@@ -9,4 +9,4 @@ tags:
 
 # 2019 Property values in diamond bar, ca
 
-![average-totalvalues](https://raw.githubusercontent.com/axefx/axefx.github.io/source/content/sample-posts/03–06-2020-Property-Values-Analysis/average-totalvalue.png)
+![average-totalvalues](https://raw.githubusercontent.com/axefx/axefx.github.io/source/content/sample-posts/03–06-2020-Property-Values-Analysis/average-totalvalues.png)
