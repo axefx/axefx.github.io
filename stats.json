@@ -1,5 +1,9 @@
 {
   "assetsByChunkName": {
+    "path---categories-data-science": [
+      "path---categories-data-science-c09ab6a560e313ba2491.js",
+      "path---categories-data-science-c09ab6a560e313ba2491.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -13,12 +17,12 @@
       "path---tags-node-f5f4e5be818b9d1ac750.js.map"
     ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-88954ed326c8f2260a33.js",
-      "component---src-layouts-index-jsx-88954ed326c8f2260a33.js.map"
+      "component---src-layouts-index-jsx-e49f2b9f7c557de2ede7.js",
+      "component---src-layouts-index-jsx-e49f2b9f7c557de2ede7.js.map"
     ],
     "path---tags-react": [
-      "path---tags-react-b07c7ef6a7e41927ad00.js",
-      "path---tags-react-b07c7ef6a7e41927ad00.js.map"
+      "path---tags-react-89aaabb597d7aa48f7a7.js",
+      "path---tags-react-89aaabb597d7aa48f7a7.js.map"
     ],
     "path---categories-tech": [
       "path---categories-tech-dff5653b122aa8417aa4.js",
@@ -32,21 +36,25 @@
       "path---tags-gatsby-js-4818152c99df389ecb14.js",
       "path---tags-gatsby-js-4818152c99df389ecb14.js.map"
     ],
+    "path---tags-data-science": [
+      "path---tags-data-science-92ed867d0f3ff65de549.js",
+      "path---tags-data-science-92ed867d0f3ff65de549.js.map"
+    ],
     "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-a06b13579966ad83d190.js",
-      "component---src-templates-category-jsx-a06b13579966ad83d190.js.map"
+      "component---src-templates-category-jsx-6c440ba858ea55fcce08.js",
+      "component---src-templates-category-jsx-6c440ba858ea55fcce08.js.map"
     ],
     "path---index": [
-      "path---index-7f1d2fd43352b3f48376.js",
-      "path---index-7f1d2fd43352b3f48376.js.map"
+      "path---index-7fd56fc82c4d65258448.js",
+      "path---index-7fd56fc82c4d65258448.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js.map"
     ],
     "path---live-working-with-sass-project-in-gatsby": [
-      "path---live-working-with-sass-project-in-gatsby-b35bb20737e1a9dd0082.js",
-      "path---live-working-with-sass-project-in-gatsby-b35bb20737e1a9dd0082.js.map"
+      "path---live-working-with-sass-project-in-gatsby-956e2cf5e98ff6f6e103.js",
+      "path---live-working-with-sass-project-in-gatsby-956e2cf5e98ff6f6e103.js.map"
     ],
     "commons": [
       "commons-f5ce00fb1da81f20f998.js",
@@ -54,9 +62,13 @@
       "commons-f5ce00fb1da81f20f998.js.map",
       "build-js-styles.css.map"
     ],
+    "path---property-values-analysis": [
+      "path---property-values-analysis-d655c3276fb870c44bba.js",
+      "path---property-values-analysis-d655c3276fb870c44bba.js.map"
+    ],
     "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-a8f3051e6a63e1063483.js",
-      "component---src-templates-tag-jsx-a8f3051e6a63e1063483.js.map"
+      "component---src-templates-tag-jsx-9daf64130a8f67ec7696.js",
+      "component---src-templates-tag-jsx-9daf64130a8f67ec7696.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -67,13 +79,13 @@
       "component---src-templates-post-jsx-b72e0f60aefc78b7be55.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-31afaebf1acab0dcb073.js",
-      "component---src-pages-index-jsx-31afaebf1acab0dcb073.js.map"
+      "component---src-pages-index-jsx-82cadd48ab87af42714d.js",
+      "component---src-pages-index-jsx-82cadd48ab87af42714d.js.map"
     ],
     "app": [
-      "app-b56b95493589fa5c4d88.js",
+      "app-275ba35717f904947570.js",
       "build-js-styles.css",
-      "app-b56b95493589fa5c4d88.js.map",
+      "app-275ba35717f904947570.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-sass": [
@@ -81,8 +93,8 @@
       "path---tags-sass-19d7c2fbdc0d3b4e4723.js.map"
     ],
     "path---current-react-md-themes": [
-      "path---current-react-md-themes-cb9d6b452d445df17a2e.js",
-      "path---current-react-md-themes-cb9d6b452d445df17a2e.js.map"
+      "path---current-react-md-themes-20a2dc83315af9822b6e.js",
+      "path---current-react-md-themes-20a2dc83315af9822b6e.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
