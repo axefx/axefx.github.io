@@ -27,6 +27,7 @@ According to Wikipedia, "Diamond Bar is a city in eastern Los Angeles County, Ca
 ## Average Prices
 
 In the accessor records, I found out of the different types of use cases that 97% were specifically used for Single Family Residences.
+When used as a family residence, I found that the building types were 25% were condos and 72% Single Family Residence type.
 
 <div style="float:left;padding:0px 5px">
 
@@ -34,4 +35,13 @@ In the accessor records, I found out of the different types of use cases that 97
 
 </div>
 
+After narrowing down the data, I found that Single Family Residence buildings had an average total value of about \$579,819.
+On the other side condos had an average total value of about 343,247.
+
+## Affordability
+
 ![affordability](https://raw.githubusercontent.com/axefx/axefx.github.io/source/content/sample-posts/03–06-2020-Property-Values-Analysis/affordability.png)
+
+After calculating some monthly payments of household incomes and using the recommended 30% of your yearly income for your house payments, I analysed those results against the data.
+In the city of Diamond Bar, 42% of Single Family Residences were considered affordable with a minimum income of 50,000 a year and a down payment of 20%.
+26% of the of those residences fall under the range between 50,000 and 75,000 of yearly income.
