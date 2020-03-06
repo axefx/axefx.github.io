@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---categories-data-science": [
-      "path---categories-data-science-c09ab6a560e313ba2491.js",
-      "path---categories-data-science-c09ab6a560e313ba2491.js.map"
+      "path---categories-data-science-1f893a3dccfe5a694171.js",
+      "path---categories-data-science-1f893a3dccfe5a694171.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -37,16 +37,16 @@
       "path---tags-gatsby-js-4818152c99df389ecb14.js.map"
     ],
     "path---tags-data-science": [
-      "path---tags-data-science-92ed867d0f3ff65de549.js",
-      "path---tags-data-science-92ed867d0f3ff65de549.js.map"
+      "path---tags-data-science-47b5eecc9233ba30131c.js",
+      "path---tags-data-science-47b5eecc9233ba30131c.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-6c440ba858ea55fcce08.js",
       "component---src-templates-category-jsx-6c440ba858ea55fcce08.js.map"
     ],
     "path---index": [
-      "path---index-7fd56fc82c4d65258448.js",
-      "path---index-7fd56fc82c4d65258448.js.map"
+      "path---index-b34b1aef624064590b2d.js",
+      "path---index-b34b1aef624064590b2d.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
@@ -63,8 +63,8 @@
       "build-js-styles.css.map"
     ],
     "path---property-values-analysis": [
-      "path---property-values-analysis-d655c3276fb870c44bba.js",
-      "path---property-values-analysis-d655c3276fb870c44bba.js.map"
+      "path---property-values-analysis-3a073f61365ee761b6eb.js",
+      "path---property-values-analysis-3a073f61365ee761b6eb.js.map"
     ],
     "component---src-templates-tag-jsx": [
       "component---src-templates-tag-jsx-9daf64130a8f67ec7696.js",
