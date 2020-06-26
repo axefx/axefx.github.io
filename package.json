@@ -58,6 +58,9 @@
   ],
   "license": "MIT",
   "main": "n/a",
+  "engines": {
+    "node": "8.5.0"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "dev": "npm run develop",
