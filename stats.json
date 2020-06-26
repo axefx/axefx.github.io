@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---categories-data-science": [
-      "path---categories-data-science-64ead705a51ef605a98b.js",
-      "path---categories-data-science-64ead705a51ef605a98b.js.map"
+      "path---categories-data-science-f68be67f762d651ccc57.js",
+      "path---categories-data-science-f68be67f762d651ccc57.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -37,24 +37,24 @@
       "path---tags-gatsby-js-4818152c99df389ecb14.js.map"
     ],
     "path---tags-data-science": [
-      "path---tags-data-science-aefb86fbe509022e0982.js",
-      "path---tags-data-science-aefb86fbe509022e0982.js.map"
+      "path---tags-data-science-bac13095a5252902293a.js",
+      "path---tags-data-science-bac13095a5252902293a.js.map"
     ],
     "component---src-templates-category-jsx": [
       "component---src-templates-category-jsx-6c440ba858ea55fcce08.js",
       "component---src-templates-category-jsx-6c440ba858ea55fcce08.js.map"
     ],
     "path---index": [
-      "path---index-96a7bd3a24e506bc477f.js",
-      "path---index-96a7bd3a24e506bc477f.js.map"
+      "path---index-e68e32c172e21efbb5cc.js",
+      "path---index-e68e32c172e21efbb5cc.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js.map"
     ],
     "path---live-working-with-sass-project-in-gatsby": [
-      "path---live-working-with-sass-project-in-gatsby-956e2cf5e98ff6f6e103.js",
-      "path---live-working-with-sass-project-in-gatsby-956e2cf5e98ff6f6e103.js.map"
+      "path---live-working-with-sass-project-in-gatsby-805b9b8cb2cbc098e405.js",
+      "path---live-working-with-sass-project-in-gatsby-805b9b8cb2cbc098e405.js.map"
     ],
     "commons": [
       "commons-e072a43a6291e41163ac.js",
@@ -63,12 +63,16 @@
       "build-js-styles.css.map"
     ],
     "path---property-values-analysis": [
-      "path---property-values-analysis-fec55cd9b079b1c39104.js",
-      "path---property-values-analysis-fec55cd9b079b1c39104.js.map"
+      "path---property-values-analysis-1c004a95bceec5530882.js",
+      "path---property-values-analysis-1c004a95bceec5530882.js.map"
     ],
     "component---src-templates-tag-jsx": [
       "component---src-templates-tag-jsx-9daf64130a8f67ec7696.js",
       "component---src-templates-tag-jsx-9daf64130a8f67ec7696.js.map"
+    ],
+    "path---k-nearest-neighbors-classifier": [
+      "path---k-nearest-neighbors-classifier-da3a7a4e2f1c61532ea0.js",
+      "path---k-nearest-neighbors-classifier-da3a7a4e2f1c61532ea0.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -83,9 +87,9 @@
       "component---src-pages-index-jsx-82cadd48ab87af42714d.js.map"
     ],
     "app": [
-      "app-f443eef727f8b4fd181a.js",
+      "app-05c00fa79e4e3e6e2642.js",
       "build-js-styles.css",
-      "app-f443eef727f8b4fd181a.js.map",
+      "app-05c00fa79e4e3e6e2642.js.map",
       "build-js-styles.css.map"
     ],
     "path---tags-sass": [
@@ -93,8 +97,8 @@
       "path---tags-sass-19d7c2fbdc0d3b4e4723.js.map"
     ],
     "path---current-react-md-themes": [
-      "path---current-react-md-themes-20a2dc83315af9822b6e.js",
-      "path---current-react-md-themes-20a2dc83315af9822b6e.js.map"
+      "path---current-react-md-themes-2f8a6f35df2865ff883e.js",
+      "path---current-react-md-themes-2f8a6f35df2865ff883e.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
