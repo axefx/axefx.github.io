@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+      network: host
+    ports:
+      - 8000:8000
+    volumes:
+      - ./src:/usr/src/app/src
+      - ./content/sample-posts:/usr/src/app/content/sample-posts
+    command:
+      npm run dev
+volumes:
+  axefx:
