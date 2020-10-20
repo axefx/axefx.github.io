@@ -15,7 +15,7 @@ class PostListing extends React.Component {
         timeToRead: postEdge.node.timeToRead
       });
     });
-    return postList.reverse();
+    return postList;
   }
   render() {
     const postList = this.getPostList();
