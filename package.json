@@ -64,10 +64,10 @@
   "scripts": {
     "develop": "gatsby develop -H 0.0.0.0",
     "dev": "npm run develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve -H 0.0.0.0",
     "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
-    "build:gh": "npm run clean && npm run build && gh-pages -d public --branch master",
+    "build:gh": "gh-pages -d public --branch master",
     "clean": "rm -rf public",
     "lint:js": "eslint --ext .js,.jsx --ignore-pattern public,static .",
     "lint:md": "remark content/sample-posts/",
