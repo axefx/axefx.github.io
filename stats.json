@@ -1,60 +1,40 @@
 {
   "assetsByChunkName": {
     "path---categories-data-science": [
-      "path---categories-data-science-f68be67f762d651ccc57.js",
-      "path---categories-data-science-f68be67f762d651ccc57.js.map"
+      "path---categories-data-science-094c0b462113e165c524.js",
+      "path---categories-data-science-094c0b462113e165c524.js.map"
+    ],
+    "path---visualizing-police-brutality": [
+      "path---visualizing-police-brutality-61254712142ebde55314.js",
+      "path---visualizing-police-brutality-61254712142ebde55314.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---tags-material-design": [
-      "path---tags-material-design-97d273a56f48ef64a976.js",
-      "path---tags-material-design-97d273a56f48ef64a976.js.map"
-    ],
-    "path---tags-node": [
-      "path---tags-node-f5f4e5be818b9d1ac750.js",
-      "path---tags-node-f5f4e5be818b9d1ac750.js.map"
-    ],
     "component---src-layouts-index-jsx": [
-      "component---src-layouts-index-jsx-e49f2b9f7c557de2ede7.js",
-      "component---src-layouts-index-jsx-e49f2b9f7c557de2ede7.js.map"
-    ],
-    "path---tags-react": [
-      "path---tags-react-89aaabb597d7aa48f7a7.js",
-      "path---tags-react-89aaabb597d7aa48f7a7.js.map"
-    ],
-    "path---categories-tech": [
-      "path---categories-tech-dff5653b122aa8417aa4.js",
-      "path---categories-tech-dff5653b122aa8417aa4.js.map"
+      "component---src-layouts-index-jsx-195d75a8fb9ea17d08f9.js",
+      "component---src-layouts-index-jsx-195d75a8fb9ea17d08f9.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
-    ],
-    "path---tags-gatsby-js": [
-      "path---tags-gatsby-js-4818152c99df389ecb14.js",
-      "path---tags-gatsby-js-4818152c99df389ecb14.js.map"
     ],
     "path---tags-data-science": [
       "path---tags-data-science-bac13095a5252902293a.js",
       "path---tags-data-science-bac13095a5252902293a.js.map"
     ],
     "component---src-templates-category-jsx": [
-      "component---src-templates-category-jsx-6c440ba858ea55fcce08.js",
-      "component---src-templates-category-jsx-6c440ba858ea55fcce08.js.map"
+      "component---src-templates-category-jsx-a06b13579966ad83d190.js",
+      "component---src-templates-category-jsx-a06b13579966ad83d190.js.map"
     ],
     "path---index": [
-      "path---index-e68e32c172e21efbb5cc.js",
-      "path---index-e68e32c172e21efbb5cc.js.map"
+      "path---index-608aa3626a8d9a5a008b.js",
+      "path---index-608aa3626a8d9a5a008b.js.map"
     ],
     "component---src-pages-about-jsx": [
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js",
       "component---src-pages-about-jsx-ad03a97f9d94d9bb3877.js.map"
-    ],
-    "path---live-working-with-sass-project-in-gatsby": [
-      "path---live-working-with-sass-project-in-gatsby-805b9b8cb2cbc098e405.js",
-      "path---live-working-with-sass-project-in-gatsby-805b9b8cb2cbc098e405.js.map"
     ],
     "commons": [
       "commons-e072a43a6291e41163ac.js",
@@ -63,16 +43,16 @@
       "build-js-styles.css.map"
     ],
     "path---property-values-analysis": [
-      "path---property-values-analysis-1c004a95bceec5530882.js",
-      "path---property-values-analysis-1c004a95bceec5530882.js.map"
+      "path---property-values-analysis-d2d3f0f86373b67c34c3.js",
+      "path---property-values-analysis-d2d3f0f86373b67c34c3.js.map"
     ],
     "component---src-templates-tag-jsx": [
-      "component---src-templates-tag-jsx-9daf64130a8f67ec7696.js",
-      "component---src-templates-tag-jsx-9daf64130a8f67ec7696.js.map"
+      "component---src-templates-tag-jsx-a8f3051e6a63e1063483.js",
+      "component---src-templates-tag-jsx-a8f3051e6a63e1063483.js.map"
     ],
     "path---k-nearest-neighbors-classifier": [
-      "path---k-nearest-neighbors-classifier-da3a7a4e2f1c61532ea0.js",
-      "path---k-nearest-neighbors-classifier-da3a7a4e2f1c61532ea0.js.map"
+      "path---k-nearest-neighbors-classifier-85c7b9ea7b634ea140ed.js",
+      "path---k-nearest-neighbors-classifier-85c7b9ea7b634ea140ed.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -83,30 +63,18 @@
       "component---src-templates-post-jsx-b72e0f60aefc78b7be55.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-82cadd48ab87af42714d.js",
-      "component---src-pages-index-jsx-82cadd48ab87af42714d.js.map"
+      "component---src-pages-index-jsx-31afaebf1acab0dcb073.js",
+      "component---src-pages-index-jsx-31afaebf1acab0dcb073.js.map"
     ],
     "app": [
-      "app-05c00fa79e4e3e6e2642.js",
+      "app-9430d737bb9ef425ee97.js",
       "build-js-styles.css",
-      "app-05c00fa79e4e3e6e2642.js.map",
+      "app-9430d737bb9ef425ee97.js.map",
       "build-js-styles.css.map"
-    ],
-    "path---tags-sass": [
-      "path---tags-sass-19d7c2fbdc0d3b4e4723.js",
-      "path---tags-sass-19d7c2fbdc0d3b4e4723.js.map"
-    ],
-    "path---current-react-md-themes": [
-      "path---current-react-md-themes-2f8a6f35df2865ff883e.js",
-      "path---current-react-md-themes-2f8a6f35df2865ff883e.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---tags-react-md": [
-      "path---tags-react-md-30527d10b3b07e82f1ef.js",
-      "path---tags-react-md-30527d10b3b07e82f1ef.js.map"
     ]
   }
 }
