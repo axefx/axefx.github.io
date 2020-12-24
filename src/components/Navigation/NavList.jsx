@@ -38,6 +38,14 @@ function GetNavList(config) {
       });
     });
   }
+  NavList.push({ divider: true });
+
+  NavList.push({
+    primaryText: "TechNotes",
+    leftIcon: <FontIcon>notes</FontIcon>,
+    component: Link,
+    to: "/tech-notes/"
+  })
 
   NavList.push({ divider: true });
 
