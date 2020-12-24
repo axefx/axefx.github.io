@@ -6,7 +6,7 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
-    const postEdges = this.props.data.allMarkdownRemark.edges;
+    const postEdges = this.props.data.allFile.edges;
     return (
       <div className="index-container">
         <Helmet>
@@ -25,12 +25,14 @@ export default Index;
 /* eslint no-undef: "off"*/
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
+    allFile(
+      filter: {sourceInstanceName: {eq: "posts"},internal:{mediaType:{eq:"text/markdown"}}}
+      sort: {fields:[id],order:DESC}
     ) {
-      edges {
-        node {
+    edges {
+      node {
+        id
+        childMarkdownRemark {
           fields {
             slug
           }
@@ -45,5 +47,6 @@ export const pageQuery = graphql`
         }
       }
     }
+  }
   }
 `;
