@@ -22,6 +22,13 @@ module.exports = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "tech-notes",
+        path: `${__dirname}/content/${config.techNotesDir}`
+      }
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "posts",
         path: `${__dirname}/content/${config.blogPostDir}`
       }

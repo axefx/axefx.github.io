@@ -1,5 +1,6 @@
 module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
+  techNotesDir: "tech-notes",
   siteTitle: "axeFx", // Site title.
   siteTitleAlt: "axeFx software developer blog", // Alternative site title for SEO.
   // siteLogo: "/logos/logo-1024.png",  Logo used for SEO and manifest.
