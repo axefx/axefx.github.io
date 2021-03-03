@@ -62,7 +62,7 @@
     "node": "8.5.0"
   },
   "scripts": {
-    "develop": "gatsby develop -H 0.0.0.0",
+    "develop": "gatsby develop",
     "dev": "npm run develop",
     "serve": "gatsby serve -H 0.0.0.0",
     "build": "gatsby build",
