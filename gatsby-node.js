@@ -1,6 +1,5 @@
 const path = require("path");
-const _ = require("lodash");
-const webpackLodashPlugin = require("lodash-webpack-plugin");
+const kebabCase = require("./src/utils");
 
 const postNodes = [];
 
@@ -15,28 +14,28 @@ function addSibilingNodes(boundActionCreators) {
     createNodeField({
       node: currNode,
       name: "nextTitle",
-      value: nextNode.frontmatter.title
+      value: nextNode.frontmatter.title,
     });
     createNodeField({
       node: currNode,
       name: "nextSlug",
-      value: nextNode.fields.slug
+      value: nextNode.fields.slug,
     });
     createNodeField({
       node: currNode,
       name: "prevTitle",
-      value: prevNode.frontmatter.title
+      value: prevNode.frontmatter.title,
     });
     createNodeField({
       node: currNode,
       name: "prevSlug",
-      value: prevNode.fields.slug
+      value: prevNode.fields.slug,
     });
   }
 }
 
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
   let slug;
   if (node.internal.type === "MarkdownRemark") {
     const fileNode = getNode(node.parent);
@@ -45,13 +44,13 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
       Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")
     ) {
-      slug = `/${_.kebabCase(node.frontmatter.slug)}`;
+      slug = `/${kebabCase(node.frontmatter.slug)}`;
     }
     if (
       Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, "title")
     ) {
-      slug = `/${_.kebabCase(node.frontmatter.title)}`;
+      slug = `/${kebabCase(node.frontmatter.title)}`;
     } else if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
       slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
     } else if (parsedFilePath.dir === "") {
@@ -63,11 +62,11 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     postNodes.push(node);
   }
 
-  addSibilingNodes(boundActionCreators);
+  addSibilingNodes(actions);
 };
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
     const postPage = path.resolve("src/templates/post.jsx");
@@ -76,23 +75,23 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     resolve(
       graphql(
         `
-        {
-          allMarkdownRemark {
-            edges {
-              node {
-                frontmatter {
-                  tags
-                  category
-                }
-                fields {
-                  slug
+          {
+            allMarkdownRemark {
+              edges {
+                node {
+                  frontmatter {
+                    tags
+                    category
+                  }
+                  fields {
+                    slug
+                  }
                 }
               }
             }
           }
-        }
-      `
-      ).then(result => {
+        `
+      ).then((result) => {
         if (result.errors) {
           /* eslint no-console: "off"*/
           console.log(result.errors);
@@ -101,9 +100,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         const tagSet = new Set();
         const categorySet = new Set();
-        result.data.allMarkdownRemark.edges.forEach(edge => {
+        result.data.allMarkdownRemark.edges.forEach((edge) => {
           if (edge.node.frontmatter.tags) {
-            edge.node.frontmatter.tags.forEach(tag => {
+            edge.node.frontmatter.tags.forEach((tag) => {
               tagSet.add(tag);
             });
           }
@@ -116,39 +115,33 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             path: edge.node.fields.slug,
             component: postPage,
             context: {
-              slug: edge.node.fields.slug
-            }
+              slug: edge.node.fields.slug,
+            },
           });
         });
 
         const tagList = Array.from(tagSet);
-        tagList.forEach(tag => {
+        tagList.forEach((tag) => {
           createPage({
-            path: `/tags/${_.kebabCase(tag)}/`,
+            path: `/tags/${kebabCase(tag)}/`,
             component: tagPage,
             context: {
-              tag
-            }
+              tag,
+            },
           });
         });
 
         const categoryList = Array.from(categorySet);
-        categoryList.forEach(category => {
+        categoryList.forEach((category) => {
           createPage({
-            path: `/categories/${_.kebabCase(category)}/`,
+            path: `/categories/${kebabCase(category)}/`,
             component: categoryPage,
             context: {
-              category
-            }
+              category,
+            },
           });
         });
       })
     );
   });
-};
-
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  if (stage === "build-javascript") {
-    config.plugin("Lodash", webpackLodashPlugin, null);
-  }
 };
