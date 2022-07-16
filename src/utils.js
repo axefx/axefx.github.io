@@ -17,4 +17,8 @@ function kebabCase(string) {
 
   return result;
 }
-module.exports = kebabCase;
+
+function capitalize(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+module.exports = { kebabCase, capitalize };
