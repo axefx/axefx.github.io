@@ -15,7 +15,7 @@ export default class MainLayout extends React.Component {
       .replace("/", "");
     let title = "";
     if (currentPath === "") {
-      title = "Home";
+      title = "";
     } else if (currentPath === "tags") {
       title = "Tags";
     } else if (currentPath === "categories") {
@@ -39,16 +39,17 @@ export default class MainLayout extends React.Component {
     }
     return title;
   }
+
   render() {
     const { children } = this.props;
     return (
       <div className="main-layout">
-          <Helmet>
-            <meta name="description" content={config.siteDescription} />
-          </Helmet>
+        <Helmet>
+          <meta name="description" content={config.siteDescription} />
+        </Helmet>
         <HeaderContainer config={config} localTitle={this.getLocalTitle()} />
         {children}
-        </div>
+      </div>
     );
   }
 }
