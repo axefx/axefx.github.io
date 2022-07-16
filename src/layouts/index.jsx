@@ -5,12 +5,10 @@ import HeaderContainer from "../components/Header";
 import config from "../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
+import { capitalize } from "../utils";
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
-    function capitalize(string) {
-      return string.charAt(0).toUpperCase() + string.slice(1);
-    }
     const pathPrefix = config.pathPrefix ? config.pathPrefix : "/";
     const currentPath = this.props.location.pathname
       .replace(pathPrefix, "")
