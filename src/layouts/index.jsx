@@ -1,7 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import "font-awesome/scss/font-awesome.scss";
-import Navigation from "../components/Navigation/Navigation";
+import HeaderContainer from "../components/Header";
 import config from "../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
@@ -49,7 +48,7 @@ export default class MainLayout extends React.Component {
           <Helmet>
             <meta name="description" content={config.siteDescription} />
           </Helmet>
-          {children()}
+        <HeaderContainer config={config} localTitle={this.getLocalTitle()} />
         </div>
       </Navigation>
     );
