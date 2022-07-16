@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import HeaderContainer from "../components/Header";
 import config from "../../data/SiteConfig";
@@ -54,3 +55,7 @@ export default class MainLayout extends React.Component {
     );
   }
 }
+
+MainLayout.propTypes = {
+  location: PropTypes.object.isRequired,
+};
