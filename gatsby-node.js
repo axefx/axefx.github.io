@@ -1,5 +1,5 @@
 const path = require("path");
-const kebabCase = require("./src/utils");
+const { kebabCase } = require("./src/utils");
 
 const postNodes = [];
 
