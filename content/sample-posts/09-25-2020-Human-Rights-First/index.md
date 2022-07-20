@@ -1,8 +1,8 @@
 ---
 title: "Visualizing Police Brutality"
-cover: "https://github.com/axefx/axefx.github.io/raw/source/content/sample-posts/09-25-2020-Human-Rights-First/HRF%20DS%20Structure.png"
+cover: "https://github.com/axefx/axefx.github.io/blob/source/content/sample-posts/09-25-2020-Human-Rights-First/HRF%20DS%20Structure.png?raw=true"
 date: "09/25/20"
-category: "Data_Science"
+category: "Data Science"
 tags:
   - Data Science
 ---
