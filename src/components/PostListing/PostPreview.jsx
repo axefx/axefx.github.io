@@ -1,20 +1,16 @@
 import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import Button from "react-md/lib/Buttons";
-import Avatar from "react-md/lib/Avatars";
-import CardText from "react-md/lib/Cards/CardText";
-import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
-import Media, { MediaOverlay } from "react-md/lib/Media";
 import PostTags from "../PostTags/PostTags";
-import "./PostPreview.scss";
+import Card, { CardTitle, CardText } from "../Card";
+import Button from "../Button";
+import Avatar from "../Avatar";
+import { MediaContainer, MediaOverlay } from "../Media";
 
 class PostPreview extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobile: true
+      mobile: true,
     };
     this.handleResize = this.handleResize.bind(this);
   }
@@ -44,27 +40,25 @@ class PostPreview extends Component {
       : postInfo.cover;
     const coverHeight = mobile ? 162 : 225;
     return (
-      <Card key={postInfo.path} raise className="md-grid md-cell md-cell--12">
+      <Card key={postInfo.path}>
         <Link style={{ textDecoration: "none" }} to={postInfo.path}>
-          <Media
-            style={{
-              backgroundImage: `url(${cover})`,
-              height: `${coverHeight}px`
-            }}
+          <MediaContainer
             className="post-preview-cover"
+            cover={cover}
+            coverHeight={coverHeight}
           >
             <MediaOverlay>
               <CardTitle title={postInfo.title}>
-                <Button raised secondary className="md-cell--right">
+                <Button theme="secondary" className="md-cell--right">
                   Read
                 </Button>
               </CardTitle>
             </MediaOverlay>
-          </Media>
+          </MediaContainer>
         </Link>
         <CardTitle
           expander={expand}
-          avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
+          avatar={<Avatar />}
           title={`Published on ${postInfo.date}`}
           subtitle={`${postInfo.timeToRead} min read`}
         />
