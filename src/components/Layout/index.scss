@@ -1,4 +1,7 @@
-@use "../components/Header/header.scss";
+@use "MainLayout.scss";
+@use "../Header/header.scss";
+@use "../PostTags/PostTags.scss";
+@use "../PostListing/PostPreview.scss";
 * {
     box-sizing: border-box;
 }
@@ -12,7 +15,4 @@ body {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Material+Icons');
-@import '~react-md/src/scss/react-md';
 @import 'theme.scss';
-
-@include react-md-everything;

@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
-import HeaderContainer from "../components/Header";
-import config from "../../data/SiteConfig";
+import HeaderContainer from "../Header";
+import config from "../../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
-import { capitalize } from "../utils";
+import { capitalize } from "../../utils";
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -43,13 +43,15 @@ export default class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <div className="main-layout">
+      <>
         <Helmet>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <HeaderContainer config={config} localTitle={this.getLocalTitle()} />
-        {children}
-      </div>
+        <div className="main-layout">
+          <HeaderContainer config={config} localTitle={this.getLocalTitle()} />
+          {children}
+        </div>
+      </>
     );
   }
 }
