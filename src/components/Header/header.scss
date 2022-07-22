@@ -15,7 +15,7 @@
 #header{
   display: flex;
   align-items: center;
-  background-color: #5972A7;
+  background-color: $primary-color;
   padding: 0 20px 0 20px;
   height: 80px;
   @media screen and (max-width: 900px) {
