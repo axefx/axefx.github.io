@@ -1,8 +1,8 @@
 @use "MainLayout.scss";
 @use "../Header/header.scss";
 @use "../PostTags/PostTags.scss";
-@use "../PostListing/PostListing.scss";
-@use "../PostListing/PostPreview.scss";
+@use "../PostListing";
+@use "PostLayout.scss";
 * {
     box-sizing: border-box;
 }
