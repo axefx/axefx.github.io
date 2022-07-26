@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import HeaderContainer from "../Header";
+import Footer from "../Footer/Footer";
 import config from "../../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
@@ -50,6 +51,7 @@ export default class MainLayout extends React.Component {
         <div className={className}>
           <HeaderContainer config={config} localTitle={this.getLocalTitle()} />
           {children}
+          <Footer userLinks={config} />
         </div>
       </>
     );

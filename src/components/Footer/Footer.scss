@@ -1,10 +1,12 @@
-@import '../../layouts/theme.scss';
+@use "../Layout/theme";
 
 .footer {
-    justify-content: center;
-    align-content: center;
-    background-color: $md-primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: theme.$primary-color;
     padding: 10px 5px 5px;
+    grid-area: ftr;
 
     .notice-container {
         display: flex;
@@ -45,7 +47,7 @@
         }
 
         h4 {
-            color: $md-secondary-color;
+            color: theme.$secondary-color;
             text-align: center;
             margin: 0;
         }
