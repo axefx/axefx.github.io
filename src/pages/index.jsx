@@ -15,7 +15,7 @@ class Index extends React.Component {
           <title>{config.siteTitle}</title>
           <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
-        <MainLayout location={this.props.location}>
+        <MainLayout className="main-layout-grid" location={this.props.location}>
           <SEO postEdges={postEdges} />
           <PostListing postEdges={postEdges} />
         </MainLayout>
