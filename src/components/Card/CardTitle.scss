@@ -1,0 +1,43 @@
+@use "../Layout/theme";
+
+.text {
+  color: theme.$text-color;
+}
+.text--secondary {
+  color: theme.$text--secondary-color;
+}
+.card-title{
+  display:flex;
+  align-items: center;
+  padding: 16px;
+}
+.card-title--secondary {
+  .avatar {
+    margin-right: 16px;
+  }
+  .card-title--subtitle {
+    h3, h4 {
+      margin: 0px;
+      font-size: 14px;
+      color: rgba(0,0,0,.87);
+      font-weight: 400;
+      line-height: 1.42857;
+    }
+  }
+  
+}
+.card-title--primary {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+.card-title--title-large{
+  font-size: 24px;
+}
+.media-overlay {
+  .card-title--title {
+    color: #fff
+  }
+}
