@@ -1,20 +1,22 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { graphql } from "gatsby";
 import PostListing from "../components/PostListing/PostListing";
 import config from "../../data/SiteConfig";
+import MainLayout from "../components/Layout";
 
 export default class TagTemplate extends React.Component {
   render() {
-    const tag = this.props.pathContext.tag;
+    const tag = this.props.pageContext.tag;
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
-      <div className="tag-container">
+      <MainLayout location={this.props.location} className="tag-container">
         <Helmet>
           <title>{`Posts tagged as "${tag}" | ${config.siteTitle}`}</title>
           <link rel="canonical" href={`${config.siteUrl}/tags/${tag}`} />
         </Helmet>
         <PostListing postEdges={postEdges} />
-      </div>
+      </MainLayout>
     );
   }
 }
