@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Card from "react-md/lib/Cards";
+import { graphql } from "gatsby";
 import CardText from "react-md/lib/Cards/CardText";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
