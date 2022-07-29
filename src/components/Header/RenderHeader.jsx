@@ -1,16 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import SiteLogo from "../../../static/logos/SiteLogo-noBG.svg";
 
-const RenderHeader = ({ siteTitle, localTitle }) => {
+const RenderHeader = ({ localTitle }) => {
   return (
     <div id="header">
       <div id="logo">
         <Link to="/">
-          {<img src="/logos/SiteLogo-noBG.svg" alt="axeFx" /> ? (
-            <img src="/logos/SiteLogo-noBG.svg" alt="axeFx" />
+          {SiteLogo ? (
+            <img src={SiteLogo} alt="axeFx" />
           ) : (
-            <h1>{siteTitle}</h1>
+            <img src="/logos/SiteLogo-noBG.svg" alt="axeFx" />
           )}
         </Link>
       </div>
