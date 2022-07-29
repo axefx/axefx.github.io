@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 import PostTags from "../PostTags/PostTags";
-import Card, { CardTitle, CardText } from "../Card";
+import Card, { CardTitle, CardText, CardSubtitle } from "../Card";
 import Button from "../Button";
 import Avatar from "../Avatar";
 import { MediaContainer, MediaOverlay } from "../Media";
@@ -48,15 +48,17 @@ class PostPreview extends Component {
             coverHeight={coverHeight}
           >
             <MediaOverlay>
-              <CardTitle title={postInfo.title}>
-                <Button theme="secondary" className="md-cell--right">
-                  Read
-                </Button>
+              <CardTitle
+                className="card-title--primary card-title--title-large"
+                title={postInfo.title}
+              >
+                <Button theme="secondary">Read</Button>
               </CardTitle>
             </MediaOverlay>
           </MediaContainer>
         </Link>
-        <CardTitle
+        <CardSubtitle
+          className="card-title--secondary card-title"
           expander={expand}
           avatar={<Avatar />}
           title={`Published on ${postInfo.date}`}
