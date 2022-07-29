@@ -4,6 +4,10 @@
 @use "../PostListing";
 @use "PostLayout.scss";
 @use "../Footer/Footer.scss";
+@use "../Card";
+@use "../Button";
+@use "../Avatar";
+@use "../Chip";
 * {
     box-sizing: border-box;
 }
