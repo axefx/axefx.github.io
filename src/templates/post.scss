@@ -1,5 +1,7 @@
-@import '~react-md/src/scss/react-md';
+@use "../components/Layout/theme";
+
 $phone-status-bar-height: 24px - 12px;
+$post-bg-color: theme.$post-bg-color;
 
 .post-page {
     display: flex;
@@ -21,6 +23,7 @@ $phone-status-bar-height: 24px - 12px;
     justify-content: center;
     width: 100%;
     max-width: 752px;
+    background-color: $post-bg-color;
 
     .gatsby-resp-image-wrapper {
         z-index: 6 !important;
@@ -111,8 +114,8 @@ $phone-status-bar-height: 24px - 12px;
                 content: '';
                 display: block;
                 position: relative;
-                height: $md-toolbar-mobile-portrait-height + $phone-status-bar-height;
-                margin: -($md-toolbar-mobile-portrait-height + $phone-status-bar-height) 0 0;
+                // height: $md-toolbar-mobile-portrait-height + $phone-status-bar-height;
+                // margin: -($md-toolbar-mobile-portrait-height + $phone-status-bar-height) 0 0;
             }
         }
     }
