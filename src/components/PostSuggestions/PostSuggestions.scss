@@ -1,10 +1,10 @@
-@import '../../layouts/theme.scss';
+@use '../Layout/theme';
 
 .post-suggestions {
     display: flex;
     flex-wrap: nowrap !important;
     justify-content: space-between;
-    background-color: darken($md-tertiary-color, 5%);
+    background-color: darken(theme.$tertiary-color, 5%);
 
     .hide-on-mobile {
         @media (max-width: 360px - 1px) {
@@ -16,7 +16,7 @@
         display: flex;
         align-items: center;
         margin: 0 15px;
-        color: $md-secondary-color !important;
+        color: theme.$secondary-color !important;
 
         .headline-container {
             margin-right: 10px;
@@ -29,6 +29,6 @@
     }
 
     .secondary-color {
-        color: $md-secondary-color !important;
+        color: theme.$secondary-color !important;
     }
 }
