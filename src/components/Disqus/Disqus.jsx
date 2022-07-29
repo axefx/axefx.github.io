@@ -1,18 +1,14 @@
 import React, { Component } from "react";
 import ReactDisqusComments from "react-disqus-comments";
-import Card from "react-md/lib/Cards/Card";
-import CardTitle from "react-md/lib/Cards/CardTitle";
-import CardText from "react-md/lib/Cards/CardText";
-import Avatar from "react-md/lib/Avatars";
-import FontIcon from "react-md/lib/FontIcons";
-import Snackbar from "react-md/lib/Snackbars";
 import config from "../../../data/SiteConfig";
+import Card, { CardTitle, CardContent } from "../Card";
+import Avatar from "../Avatar";
 
 class Disqus extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      toasts: []
+      toasts: [],
     };
     this.notifyAboutComment = this.notifyAboutComment.bind(this);
     this.onSnackbarDismiss = this.onSnackbarDismiss.bind(this);
@@ -36,12 +32,8 @@ class Disqus extends Component {
     const url = config.siteUrl + postNode.fields.slug;
     return (
       <Card className="md-grid md-cell md-cell--12">
-        <CardTitle
-          title="Comments"
-          avatar={<Avatar icon={<FontIcon>comment</FontIcon>} />}
-          expander={!expanded}
-        />
-        <CardText expandable={!expanded}>
+        <CardTitle title="Comments" avatar={<Avatar />} expander={!expanded} />
+        <CardContent expandable={!expanded}>
           <ReactDisqusComments
             shortname={config.disqusShortname}
             identifier={post.title}
@@ -50,11 +42,7 @@ class Disqus extends Component {
             category_id={post.category_id}
             onNewComment={this.notifyAboutComment}
           />
-        </CardText>
-        <Snackbar
-          toasts={this.state.toasts}
-          onDismiss={this.onSnackbarDismiss}
-        />
+        </CardContent>
       </Card>
     );
   }
