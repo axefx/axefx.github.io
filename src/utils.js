@@ -21,4 +21,6 @@ function kebabCase(string) {
 function capitalize(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
-module.exports = { kebabCase, capitalize };
+
+const isBrowser = typeof window !== "undefined";
+module.exports = { kebabCase, capitalize, isBrowser };
