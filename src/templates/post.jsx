@@ -15,35 +15,10 @@ import "./post.scss";
 import { PostLayout } from "../components/Layout";
 
 export default class PostTemplate extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      mobile: true,
-    };
-    this.handleResize = this.handleResize.bind(this);
-  }
-  componentDidMount() {
-    this.handleResize();
-    window.addEventListener("resize", this.handleResize);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
-  }
-
-  handleResize() {
-    if (window.innerWidth >= 640) {
-      this.setState({ mobile: false });
-    } else {
-      this.setState({ mobile: true });
-    }
-  }
-
   render() {
-    const { mobile } = this.state;
     const { slug } = this.props.pageContext;
-    const expanded = !mobile;
-    const postOverlapClass = mobile ? "post-overlap-mobile" : "post-overlap";
+    const expanded = !true;
+    const postOverlapClass = "post-overlap-mobile";
     const postNode = this.props.data.markdownRemark;
     const post = postNode.frontmatter;
     if (!post.id) {
@@ -59,11 +34,11 @@ export default class PostTemplate extends React.Component {
           <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
         </Helmet>
         <PostLayout
-          location={window.location}
+          location={this.props.location}
           className="post-page md-grid md-grid--no-spacing"
         >
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <PostCover postNode={postNode} mobile={mobile} />
+          <PostCover postNode={postNode} />
           <div
             className={`md-grid md-cell--9 post-page-contents mobile-fix ${postOverlapClass}`}
           >
@@ -75,11 +50,7 @@ export default class PostTemplate extends React.Component {
               </CardText>
               <div className="post-meta">
                 <PostTags tags={post.tags} />
-                <SocialLinks
-                  postPath={slug}
-                  postNode={postNode}
-                  mobile={this.state.mobile}
-                />
+                <SocialLinks postPath={slug} postNode={postNode} />
               </div>
             </Card>
             <UserInfo
