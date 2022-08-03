@@ -5,6 +5,7 @@ import Card, { CardTitle, CardText, CardSubtitle } from "../Card";
 import Button from "../Button";
 import Avatar from "../Avatar";
 import { MediaContainer, MediaOverlay } from "../Media";
+import { isBrowser } from "../../utils";
 
 class PostPreview extends Component {
   constructor(props) {
@@ -16,18 +17,24 @@ class PostPreview extends Component {
   }
   componentDidMount() {
     this.handleResize();
-    window.addEventListener("resize", this.handleResize);
+    if (isBrowser) {
+      window.addEventListener("resize", this.handleResize);
+    }
   }
 
   componentWillUnmount() {
-    window.removeEventListener("resize", this.handleResize);
+    if (isBrowser) {
+      window.removeEventListener("resize", this.handleResize);
+    }
   }
 
   handleResize() {
-    if (window.innerWidth >= 640) {
-      this.setState({ mobile: false });
-    } else {
-      this.setState({ mobile: true });
+    if (isBrowser) {
+      if (window.innerWidth >= 640) {
+        this.setState({ mobile: false });
+      } else {
+        this.setState({ mobile: true });
+      }
     }
   }
   render() {
