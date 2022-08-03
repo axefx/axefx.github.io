@@ -18,11 +18,11 @@ import "./SocialLinks.scss";
 
 class SocialLinks extends Component {
   render() {
-    const { postNode, postPath, mobile } = this.props;
+    const { postNode, postPath } = this.props;
     const post = postNode.frontmatter;
     const url = config.siteUrl + config.pathPrefix + postPath;
 
-    const iconSize = mobile ? 36 : 48;
+    const iconSize = 36;
     const filter = (count) => (count > 0 ? count : "");
 
     return (
