@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkaxefx=self.webpackChunkaxefx||[]).push([[883],{429:function(e,n,u){u.r(n);var r=u(7294);n.default=function(){return r.createElement("div",null,"{error: 404, message: 'not found'}")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-0aa7152eed8722a2897d.js.map
